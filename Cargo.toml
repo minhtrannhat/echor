@@ -9,3 +9,7 @@ description = "Rust rewrite of echo"
 
 [dependencies]
 clap = { version = "4", features = ["cargo", "help"] }
+
+[dev-dependencies]
+assert_cmd = "2.0.12"
+predicates = "3.0.3"
